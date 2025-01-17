@@ -63,7 +63,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="bg-white w-full p-4 h-full md:w-4/5 lg:w-1/2">
+    <div className="bg-white  p-4 min-h-full md:min-h-screen  w-screen lg:w-4/5 xl:w-1/2">
       <NavBar />
       <div className="p-10">
         <h1 className="text-2xl font-semibold mb-6  ">Create account</h1>
@@ -163,7 +163,7 @@ const SignUp = () => {
           </button>
           <ToastContainer />
         </form>
-        <div className="flex gap-1 mt-5 items-center justify-center">
+        <div className="flex gap-1 mt-5 items-center justify-center text-sm lg:text-md">
           <p>Already have an account?</p>{' '}
           <Link to="/signin" className=" underline ">
             Log in

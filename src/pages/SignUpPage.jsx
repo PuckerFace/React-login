@@ -3,7 +3,7 @@ import SignUp from '../components/SignUp';
 
 const SignUpPage = () => {
   return (
-    <section className="flex p-6 drop-shadow-2xl lg:flex-row flex-col  h-full items-center lg:items-stretch">
+    <section className="flex  drop-shadow-2xl lg:flex-row flex-col  items-center lg:items-stretch  size-full ">
       <SignUp />
       <ImageBackground />
     </section>

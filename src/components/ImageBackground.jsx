@@ -7,7 +7,7 @@ import star from '../assets/star.png';
 const ImageBackground = () => {
   return (
     <div
-      className=" max-h-full bg-cover bg-no-repeat flex justify-end flex-col p-6  md:w-4/5  w-full "
+      className=" min-h-screen bg-cover bg-no-repeat flex justify-end flex-col p-6    w-screen "
       style={{ backgroundImage: `url(${image2})` }}
     >
       <h2 className="text-white text-3xl lg:text-5xl font-bold w-4/5 mb-6 ">

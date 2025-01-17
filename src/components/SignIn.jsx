@@ -56,7 +56,7 @@ const SignIn = () => {
   };
 
   return (
-    <div className="bg-white w-full p-4 h-full md:w-4/5 lg:w-1/2">
+    <div className="bg-white  p-4 h-full w-screen lg:w-4/5 xl:w-1/2">
       <NavBar />
       <div className="p-10">
         <h1 className="text-2xl font-semibold mb-6 ">Create account</h1>
@@ -122,7 +122,7 @@ const SignIn = () => {
         <div className="flex gap-1 mt-5 items-center justify-center">
           <p>{`Don't have an account?`}</p>{' '}
           <Link to="/signup" className=" underline ">
-            Sign UP
+            Sign up
           </Link>
         </div>
       </div>
